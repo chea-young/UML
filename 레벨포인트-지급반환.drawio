@@ -1,9 +1,79 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="페이지-1" id="YkY82e0PxIn-6f0DJEvP">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eyv4-S-L73UnCUitt540-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" edge="1" parent="1" source="eyv4-S-L73UnCUitt540-1" target="eyv4-S-L73UnCUitt540-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-1" value="레벨 포인트 지급&lt;br&gt;(상품 구매)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="10" y="60" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-2" value="레벨 포인트 반환&lt;br&gt;(상품 환불)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" edge="1" parent="1" target="eyv4-S-L73UnCUitt540-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="105" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" edge="1" parent="1" source="eyv4-S-L73UnCUitt540-9" target="eyv4-S-L73UnCUitt540-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" edge="1" parent="1" source="eyv4-S-L73UnCUitt540-9" target="eyv4-S-L73UnCUitt540-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-9" value="등급 상승이 되는가?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="470" y="60" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-15" value="네" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="620" y="78" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-16" value="아니요" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="540" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-17" value="레벨포인트이력저장&lt;div&gt;(hasReceivedLevelUpPoint = false)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="445" y="230" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;" edge="1" parent="1" source="eyv4-S-L73UnCUitt540-19" target="eyv4-S-L73UnCUitt540-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="275" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="785" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" edge="1" parent="1" source="eyv4-S-L73UnCUitt540-19" target="eyv4-S-L73UnCUitt540-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-19" value="ECO_VIP로 상승이거나&lt;div&gt;처음 달성한 레벨인가?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="700" y="60" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-21" value="레벨 포인트 지급" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="60" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-25" value="아니요" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="790" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" edge="1" parent="1" source="eyv4-S-L73UnCUitt540-26" target="eyv4-S-L73UnCUitt540-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-26" value="달성 그린 라벨 포인트 지급" style="whiteSpace=wrap;html=1;rounded=1;arcSize=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="60" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" edge="1" parent="1" source="eyv4-S-L73UnCUitt540-28" target="eyv4-S-L73UnCUitt540-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-28" value="그린 라벨 포인트 이력 저장" style="whiteSpace=wrap;html=1;rounded=1;arcSize=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="60" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-30" value="레벨포인트이력저장&lt;div&gt;(hasReceivedLevelUpPoint = true)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="60" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eyv4-S-L73UnCUitt540-32" value="네" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="890" y="70" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
