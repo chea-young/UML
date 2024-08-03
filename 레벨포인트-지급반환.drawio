@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="페이지-1" id="YkY82e0PxIn-6f0DJEvP">
-    <mxGraphModel dx="1793" dy="1083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="960" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,6 +9,9 @@
         </mxCell>
         <mxCell id="eyv4-S-L73UnCUitt540-1" value="레벨 포인트 지급&lt;br&gt;(상품 구매)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="10" y="60" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="eyv4-S-L73UnCUitt540-2" target="tcmR6teaDqYdF_yaeq76-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eyv4-S-L73UnCUitt540-2" value="레벨 포인트 반환&lt;br&gt;(상품 환불)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;arcSize=50;" parent="1" vertex="1">
           <mxGeometry x="20" y="400" width="150" height="90" as="geometry" />
@@ -21,7 +24,7 @@
         <mxCell id="eyv4-S-L73UnCUitt540-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" parent="1" source="eyv4-S-L73UnCUitt540-9" target="eyv4-S-L73UnCUitt540-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PSbZCfQo8rIgex3jAUOo-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.983;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eyv4-S-L73UnCUitt540-9" target="PSbZCfQo8rIgex3jAUOo-1">
+        <mxCell id="PSbZCfQo8rIgex3jAUOo-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.983;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="eyv4-S-L73UnCUitt540-9" target="PSbZCfQo8rIgex3jAUOo-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="740" y="105" as="sourcePoint" />
           </mxGeometry>
@@ -33,7 +36,7 @@
           <mxGeometry x="680" y="78" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eyv4-S-L73UnCUitt540-16" value="아니요" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="540" y="150" width="60" height="30" as="geometry" />
+          <mxGeometry x="580" y="150" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eyv4-S-L73UnCUitt540-17" value="레벨포인트이력저장&lt;div&gt;(hasReceivedLevelUpPoint = false)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="475" y="230" width="200" height="90" as="geometry" />
@@ -76,11 +79,75 @@
         <mxCell id="eyv4-S-L73UnCUitt540-32" value="네" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="1210" y="78" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PSbZCfQo8rIgex3jAUOo-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSbZCfQo8rIgex3jAUOo-1" target="eyv4-S-L73UnCUitt540-19">
+        <mxCell id="PSbZCfQo8rIgex3jAUOo-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PSbZCfQo8rIgex3jAUOo-1" target="eyv4-S-L73UnCUitt540-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PSbZCfQo8rIgex3jAUOo-1" value="레벨 포인트 달성 데이터&amp;nbsp;&lt;div&gt;업데이트&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+        <mxCell id="PSbZCfQo8rIgex3jAUOo-1" value="레벨 포인트 달성 데이터&amp;nbsp;&lt;div&gt;업데이트&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=0;" parent="1" vertex="1">
           <mxGeometry x="760" y="60" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="tcmR6teaDqYdF_yaeq76-3" target="tcmR6teaDqYdF_yaeq76-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-3" value="레벨 포인트 반환" style="whiteSpace=wrap;html=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="264" y="400" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="tcmR6teaDqYdF_yaeq76-5" target="tcmR6teaDqYdF_yaeq76-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tcmR6teaDqYdF_yaeq76-5" target="tcmR6teaDqYdF_yaeq76-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="864" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-5" value="등급 하락이 되는가" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="529" y="400" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-7" value="레벨포인트이력저장&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;(hasReceivedLevelUpPoint = false)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="534" y="585" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-9" value="아니요" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="640" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-14" value="네" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="754" y="410" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="tcmR6teaDqYdF_yaeq76-15" target="tcmR6teaDqYdF_yaeq76-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tcmR6teaDqYdF_yaeq76-15" target="tcmR6teaDqYdF_yaeq76-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="945" y="615" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="945" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-15" value="해당 상품 구매 시,&amp;nbsp;&lt;div&gt;달성 포인트를 지급 받았는가?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="400" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-19" value="아니요" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="955" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="tcmR6teaDqYdF_yaeq76-20" target="tcmR6teaDqYdF_yaeq76-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-20" value="그린라벨 포인트 반환" style="whiteSpace=wrap;html=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="400" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="tcmR6teaDqYdF_yaeq76-22" target="tcmR6teaDqYdF_yaeq76-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-22" value="그린 라벨 포인트 이력 저장" style="whiteSpace=wrap;html=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="1405" y="400" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="tcmR6teaDqYdF_yaeq76-28" target="tcmR6teaDqYdF_yaeq76-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-28" value="등급 달성 상태 원복" style="whiteSpace=wrap;html=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="1635" y="400" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tcmR6teaDqYdF_yaeq76-30" value="레벨포인트이력저장&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;(hasReceivedLevelUpPoint = true)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="1865" y="400" width="200" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
